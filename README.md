@@ -1,1 +1,2 @@
 - Working through the LS SQL Book
+- Learning about table relationships
