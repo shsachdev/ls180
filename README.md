@@ -5,7 +5,6 @@
 Here are the basics of Join Syntax:
 
 ```
-ruby
 
 SELECT [table_name.column_name1, table_name.column_name2, ..] FROM table_name1
 
