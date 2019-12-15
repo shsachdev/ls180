@@ -1,6 +1,7 @@
 - Working through the LS SQL Book
 - Learning about table relationships
 - Learning about primary keys and foreign keys
+- Adding constraints
 
 Here are the basics of Join Syntax:
 
