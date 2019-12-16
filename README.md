@@ -3,6 +3,15 @@
 - Learning about primary keys and foreign keys
 - Adding constraints
 - Learning about database diagrams
+  - Conceptual SCHEMA
+  - Physical SCHEMA
+
+- One to one
+- One to many
+- Many to Many
+
+- Cardinality and Modality 
+
 
 Here are the basics of Join Syntax:
 
