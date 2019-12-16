@@ -2,6 +2,7 @@
 - Learning about table relationships
 - Learning about primary keys and foreign keys
 - Adding constraints
+- Learning about database diagrams
 
 Here are the basics of Join Syntax:
 
