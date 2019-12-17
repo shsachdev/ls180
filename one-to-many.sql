@@ -39,14 +39,14 @@ COMMENT ON SCHEMA public IS 'standard public schema';
 
 
 --
--- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
+-- Name: plpgsql; Type: EXTENSION; Schema: -; Owner:
 --
 
 CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
 
 
 --
--- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: 
+-- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner:
 --
 
 COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
@@ -59,7 +59,7 @@ SET default_tablespace = '';
 SET default_with_oids = false;
 
 --
--- Name: calls; Type: TABLE; Schema: public; Owner: jimb; Tablespace: 
+-- Name: calls; Type: TABLE; Schema: public; Owner: jimb; Tablespace:
 --
 
 CREATE TABLE calls (
@@ -94,7 +94,7 @@ ALTER SEQUENCE calls_id_seq OWNED BY calls.id;
 
 
 --
--- Name: contacts; Type: TABLE; Schema: public; Owner: jimb; Tablespace: 
+-- Name: contacts; Type: TABLE; Schema: public; Owner: jimb; Tablespace:
 --
 
 CREATE TABLE contacts (
@@ -177,7 +177,7 @@ SELECT pg_catalog.setval('contacts_id_seq', 25, true);
 
 
 --
--- Name: calls_pkey; Type: CONSTRAINT; Schema: public; Owner: jimb; Tablespace: 
+-- Name: calls_pkey; Type: CONSTRAINT; Schema: public; Owner: jimb; Tablespace:
 --
 
 ALTER TABLE ONLY calls
@@ -185,7 +185,7 @@ ALTER TABLE ONLY calls
 
 
 --
--- Name: contacts_pkey; Type: CONSTRAINT; Schema: public; Owner: jimb; Tablespace: 
+-- Name: contacts_pkey; Type: CONSTRAINT; Schema: public; Owner: jimb; Tablespace:
 --
 
 ALTER TABLE ONLY contacts
@@ -203,4 +203,3 @@ ALTER TABLE ONLY calls
 --
 -- PostgreSQL database dump complete
 --
-
