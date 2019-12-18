@@ -10,8 +10,9 @@
 - One to many
 - Many to Many
 
-- Cardinality and Modality 
+- Cardinality and Modality
 
+- Converting a 1:M Relationship to a M:M relationship
 
 Here are the basics of Join Syntax:
 
