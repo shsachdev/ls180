@@ -14,6 +14,8 @@
 
 - Converting a 1:M Relationship to a M:M relationship
 
+- Learning about subqueries
+
 Here are the basics of Join Syntax:
 
 ```
