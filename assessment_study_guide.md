@@ -55,4 +55,14 @@ A foreign key can refer to two different but related things:
 type of constraint is foreign key constraint.
 
 One of the main benefits of using the foreign key constraints provided by a relational database is to preserve the referential integrity of the data in the database. The database does this by ensuring that every value in a foreign key column exists in the
-primary key column of the referenced table. Attempts to insert rows that violate the table's constraints will be rejected. 
+primary key column of the referenced table. Attempts to insert rows that violate the table's constraints will be rejected.
+
+- Define cardinality and modality.
+
+Cardinality is the number of objects on each side of the relationship (1:1, 1:M, M:M)
+
+Modality establishes if the relationship is required (1) or optional (0).
+
+If the relationship is required, there has to be at least one instance of that entity.
+
+If the relationship is not required, there do not need to be any instances at all.
