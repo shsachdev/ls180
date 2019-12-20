@@ -33,4 +33,26 @@ The sequence is a special type of data created to generate numeric identifiers i
 - Define a default value for a column
 
 A column can be assigned a default value. When a new row is created and no values are specified for some of the columns,
-those columns will be filled with their respective default values. 
+those columns will be filled with their respective default values.
+
+- Be able to describe what primary, foreign, natural, and surrogate keys are.
+
+A natural key is an existing value in a dataset that can be used to uniquely identify each row of data in that dataset.
+
+A surrogate key is a value that is created solely for the purpose of identifying a row of data in a database table. Because
+it is created specifically for that purpose, it can avoid many of the problems associated with natural keys.
+
+By specifying a column as Primary Key, PostgreSQL will create an index on that column that enforces it holding unique values
+in addition to preventing the column from holding NULL values. By using Primary Key, the fact that a certain column can be relied
+upon as a way to identify specific rows is baked into the table's schema.
+
+We can therefore say that a primary key is a type of surrogate key.
+
+A foreign key can refer to two different but related things:
+
+- A column that represents a relationship between two rows by pointing to a specific row in another table using its primary key. A complete name for these columns is a foreign key column.
+- A constraint that enforces certain rules about what values are permitted in these foreign key relationships. A complete name for this
+type of constraint is foreign key constraint.
+
+One of the main benefits of using the foreign key constraints provided by a relational database is to preserve the referential integrity of the data in the database. The database does this by ensuring that every value in a foreign key column exists in the
+primary key column of the referenced table. Attempts to insert rows that violate the table's constraints will be rejected. 
