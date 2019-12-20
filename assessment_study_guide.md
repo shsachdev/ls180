@@ -66,3 +66,9 @@ Modality establishes if the relationship is required (1) or optional (0).
 If the relationship is required, there has to be at least one instance of that entity.
 
 If the relationship is not required, there do not need to be any instances at all.
+
+```
+sql
+
+SELECT * FROM table 
+```
