@@ -67,8 +67,4 @@ If the relationship is required, there has to be at least one instance of that e
 
 If the relationship is not required, there do not need to be any instances at all.
 
-```
-sql
-
-SELECT * FROM table 
-```
+Crow's foot notation diagrams - be ready to draw database diagrams using that.
