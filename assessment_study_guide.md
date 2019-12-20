@@ -24,4 +24,8 @@ accordingly, we will as well.
 
 DCL == Data Control Language
 
-DCL is tasked with controlling the rights and access roles of the users interacting with a database or table. 
+DCL is tasked with controlling the rights and access roles of the users interacting with a database or table.
+
+- Describe what a sequence is and what they are used for.
+
+The sequence is a special type of data created to generate numeric identifiers in the PostgreSQL database.
