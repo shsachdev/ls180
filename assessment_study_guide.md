@@ -29,3 +29,8 @@ DCL is tasked with controlling the rights and access roles of the users interact
 - Describe what a sequence is and what they are used for.
 
 The sequence is a special type of data created to generate numeric identifiers in the PostgreSQL database.
+
+- Define a default value for a column
+
+A column can be assigned a default value. When a new row is created and no values are specified for some of the columns,
+those columns will be filled with their respective default values. 
